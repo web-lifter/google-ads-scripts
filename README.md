@@ -121,16 +121,55 @@ This script adjusts bids based on weather conditions, allowing for more effectiv
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/iGenerateDigital/google-ads-scripts.git
+   git clone https://github.com/web-lifter/google-ads-scripts.git
    ```
 2. Navigate to the script directory you wish to use:
    ```bash
    cd google-ads-scripts/script-directory
    ```
 
-## Usage
+## How to Upload a Script to Google Ads
 
-Each script contains detailed instructions on how to use it. Please refer to the README file or comments within each script for specific usage details.
+### Prerequisites
+1. Ensure you have a **Google Ads account** with admin-level access.
+2. Locate the desired script in the repository and review its purpose and requirements.
+
+### Steps to Upload a Script
+
+1. **Access Google Ads Scripts**:
+   - Log in to your Google Ads account.
+   - Navigate to **Tools & Settings** (wrench icon) in the top-right corner.
+   - Under "Bulk Actions," click on **Scripts**.
+
+2. **Create a New Script**:
+   - Click the **+ Script** button.
+   - Assign a descriptive name to your script.
+
+3. **Copy the Script Code**:
+   - Open the desired script file in the repository (e.g., `google-ads-scripts/404-checking/404-checking.js`).
+   - Copy the entire script code.
+
+4. **Paste the Code into Google Ads**:
+   - In the script editor within Google Ads, paste the copied code.
+
+5. **Authorize the Script**:
+   - Click the **Authorize** button above the script editor.
+   - Grant the necessary permissions for the script to access and manage your Google Ads data.
+
+6. **Preview the Script**:
+   - Click **Preview** to simulate the script's functionality without making changes to your campaigns.
+   - Review the log for any errors or warnings.
+
+7. **Run the Script**:
+   - If the preview runs successfully, click **Run** to execute the script.
+   - You can also schedule the script to run automatically:
+     - Click on the **Create Schedule** button.
+     - Set the desired frequency and save.
+
+### Best Practices
+- **Test Thoroughly**: Always test scripts in preview mode before running them live.
+- **Monitor Changes**: Review campaign performance after running scripts to ensure they produce the desired results.
+- **Document Updates**: If you modify scripts for customization, document the changes for future reference.
 
 ## Contributing
 
@@ -148,4 +187,4 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 
 ## Contact
 
-For any questions or inquiries, please contact [support@igeneratedigital.com.au](mailto:support@igeneratedigital.com.au).
+For any questions or inquiries, please contact [open-source@weblifter.com.au](mailto:open-source@weblifter.com.au).
